@@ -1,6 +1,8 @@
 Readme for PDF-Maker
-Original Code Written by Zhigang "Joey" Li - info@cyphia.com
+Original Code Written by Zhigang "Joey" Li - info@cyphia.com. Copyright (c) 1999-2002 Zhigang "Joey" Li.
 Created as an open source project and on his behalf by Greg White @ HealthStatus.com - gwhite@healthstatus.com
+
+Licensed under the Open Software License v. 3.0 - http://www.opensource.org/licenses/osl-3.0.php
 
 Current plan is to clean this up some, change namespace, POD the documentation, put into CPAN
 
