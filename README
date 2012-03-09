@@ -1,3 +1,26 @@
 Readme for PDF-Maker
 Original Code Written by Zhigang "Joey" Li - info@cyphia.com
 Created as an open source project and on his behalf by Greg White @ HealthStatus.com - gwhite@healthstatus.com
+
+Current plan is to clean this up some, change namespace, POD the documentation, put into CPAN
+
+The toolkit requires the following Perl modules:
+Compress::Zlib - for compressing content data with Zlib/deflate algorithm;
+XML::Parser - for parsing XML input;
+Time::Local - for converting a series of time values into an integer;
+Text::Wrap, Text::Tabs - for processing preformatted text.
+File::Copy - for copying and renaming temporary files output generation.
+Bit::Vector - for identifying LZW code-words in GIF images.
+
+Current Limitations/Issues:
+not setup for CPAN;
+
+no use strict;
+
+global namespace pollution that should be cleaned up
+
+error handling is less than stellar
+
+finicky about color depth of images
+
+no mechanism for flowing text from one page to the next
